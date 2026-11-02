@@ -12,7 +12,7 @@ training insights, with an interactive front/back muscle map.
 
 This frontend uses in-memory sample data. Account management, workout execution,
 and live fitness integrations are not implemented; some action buttons are visual
-placeholders. No backend or AWS resources are configured.
+placeholders. No backend is implemented. See [deployment settings](DEPLOYMENT.md) for the frontend hosting configuration.
 
 ## Structure
 
@@ -38,4 +38,4 @@ npm run dev -- --port 5174 --strictPort
 Open http://localhost:5174/. To build, run `npm run build` from `web/`.
 
 Livletics is independent of the [personal portfolio](https://github.com/OliviaLeavitt/olivia-portfolio),
-which introduces the project. Each has its own repository and can be hosted independently later.
+which introduces the project. Each has its own repository and deployment. The intended demo URL is https://livletics.olivialeavitt.com; DNS and HTTPS must be verified before it is advertised as live.

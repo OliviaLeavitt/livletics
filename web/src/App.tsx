@@ -70,6 +70,7 @@ function App() {
         </div>
 
         <nav className="nav" aria-label="Main navigation">
+          <a href="https://olivialeavitt.com">Portfolio</a>
           <a href="#overview">Overview</a>
           <a href="#training">Training</a>
           <a href="#recovery">Recovery</a>
@@ -78,6 +79,7 @@ function App() {
       </header>
 
       <main className="dashboard" id="overview">
+        <p className="demo-notice" role="note">Interactive demo ? Sample training data</p>
         <section className="welcome-panel">
           <div>
             <p className="eyebrow accent">Good morning</p>
